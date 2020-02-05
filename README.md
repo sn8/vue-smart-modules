@@ -1,23 +1,23 @@
-# vue-modules
+# vue-smart-modules
 
-This is a simple plugin for dynamic registration of modules (with internal store and router).
+This is a simple plugin for dynamic registration of modules (with internal store and routes).
 
 ## Install
 
 With yarn:
 ```
-yarn add vue-modules
+yarn add vue-smart-modules
 ```
 
 With npm:
 ```
-npm i vue-modules
+npm i vue-smart-modules
 ```
 
 Then, register VueModules in your app entry point (also register router and store in VueModules options):
 ```js
 import Vue from 'vue'
-import VueModules from 'vue-modules'
+import VueModules from 'vue-smart-modules'
 import router from './router'
 import store from './store'
 
@@ -50,4 +50,16 @@ export default {
   namespaced: true,
   state: {}
 }
+```
+
+Example contents of ```routes.js```:
+```js
+import Foo from './components/Foo.vue'
+
+export default [
+  {
+    path: '/foo',
+    component: Foo
+  }
+]
 ```

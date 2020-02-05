@@ -1,5 +1,5 @@
 {
-  "name": "vue-modules",
+  "name": "vue-smart-modules",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sn8/vue-modules.git"
+    "url": "git+https://github.com/sn8/vue-smart-modules.git"
   },
   "author": "Artem Sinkov <sinkov@nxweb.ru>",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/sn8/vue-modules/issues"
+    "url": "https://github.com/sn8/vue-smart-modules/issues"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.com/"
   },
-  "homepage": "https://github.com/sn8/vue-modules#readme",
+  "homepage": "https://github.com/sn8/vue-smart-modules#readme",
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
